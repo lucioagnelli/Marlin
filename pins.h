@@ -461,7 +461,7 @@
     #define SDSS               25//53
     #define LED_PIN            13
 
-    #define BEEPER             33    
+    #define BEEPER             -1    
 
   #else
 
@@ -480,7 +480,7 @@
     #define Z_STEP_PIN         46
     #define Z_DIR_PIN          48
     #define Z_ENABLE_PIN       62
-    #define Z_MIN_PIN          18 // autolevel probe for deltabot
+    #define Z_MIN_PIN          18 // autolevel for deltabot
     #define Z_MAX_PIN          19
 
     #define Z2_STEP_PIN        36
